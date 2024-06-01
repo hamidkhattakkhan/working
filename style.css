@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.asif {
+    border: 50% solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+    .asif {
+        flex-direction: row; 
+         
+    }
+
+    h1{
+        
+        padding: auto;
+        font-weight: 1000;
+        font-size: medium;
+        position: absolute;
+        top: 200px;
+    }
+
+    .ff{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+header {
+    color: white;
+    justify-content: start;
+}
+
+body {
+    background: url(1.jpg) center center fixed;
+    background-position: cover;
+    background-size: cover;
+}
+
+a {
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: none;
+}
+
+div {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ff {
+    border: 10px solid black;
+    position: absolute;
+    margin: 100px 80px 0;
+    top: 80px;
+}
