@@ -79,7 +79,7 @@ h1{
 body{
     background: url(8.jpg) center center fixed ;
     background-size: cover;
-    animation: body 5s ease-in 0s infinite normal;
+    animation: body 20s ease-in 0s infinite normal;
 }
 
 .gg{
@@ -112,7 +112,9 @@ img:hover{
 
     100%{
         background-color: rgb(218, 47, 141);
+        
     }
+    
 }
 
 .ag{
@@ -148,13 +150,40 @@ h1:hover{
         background-image: url(a.jpg);
     }
 
-    50%{
-        background-image: url(s.jpg);
-    }
-
-    100%{
+    10%{
         background-image: url(q.jpg);
     }
+
+    20%{
+        background-image: url(s.jpg);
+    }
+    30%{
+        background-image: url(11.jpg);
+    }
+
+    40%{
+        background-image: url(12.jpg);
+    }
+
+    50%{
+        background-image: url(13.jpg);
+    }
+    60%{
+        background-image: url(14.jpg);
+    }
+
+    70%{
+        background-image: url(15.jpg);
+    }
+
+    90%{
+        background-image: url(16.jpg);
+    }
+    100%{
+        background-image: url(17.jpg);
+    }
+    
+    
 }
 
 hr{
@@ -225,5 +254,9 @@ hr{
         position: relative;
         left: auto;
         right: auto;
+    }
+
+    body{
+        background-size: cover;
     }
 }
