@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-style:unset;
+}
+
+.style{
+    background-color: rgb(190, 194, 151);
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.login{
+    background-color: yellow;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    width: 60px;
+    text-align: center;
+    font: 1000;
+    font-size: large;
+    flex-direction: row;
+    transform: rotate(360deg);
+    animation: ali 1s ease-in-out 0s infinite normal;
+    border: 0;
+    border-bottom: 2px solid rgb(17, 17, 17);
+    border-radius: 10px;
+    border-bottom: 10px solid red;
+}
+
+
+
+@keyframes ali{
+    0%{
+        background-color: blue;
+    }
+    100%{
+        background-color: black;
+    }
+}
+input{
+    border-color: #bd4141;
+    background-color: transparent;
+    width: 300px;
+    font-size: large;
+    height: 40px;
+    margin: 3dvh;
+    border-radius: 20px;
+    border-bottom: 5px solid red;
+    text-shadow: 20px;
+    position: relative;
+    right: 10px;
+    
+    
+}
+input::placeholder{
+    color: black;
+    text-decoration: dashed;
+    font-size: larger;
+    align-items: center;
+    border-bottom: 10px solid red;
+    
+}
+body .style{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
