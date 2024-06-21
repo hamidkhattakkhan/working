@@ -39,6 +39,8 @@ a{
     border-bottom: 5px solid;
     font-size: 8vmin;
     cursor: grabbing;
+    background-color: white;
+    color: black;
 }
 
 .reset{
