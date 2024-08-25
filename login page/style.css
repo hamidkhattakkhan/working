@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: o;
+}
+
+body{
+    background-color: yellow;
+   
+}
+
+.login{
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+
+.page{
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin-left: 100px;
+}
